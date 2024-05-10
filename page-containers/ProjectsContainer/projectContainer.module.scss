@@ -1,0 +1,36 @@
+.projectContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin : 0px 20px 0px 20px;
+    p{
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .filter{
+        font-size: 18px;
+        font-weight: 600;
+        border: 1px solid green;
+        padding: 10px 20px;
+        border-radius: 8px;
+        color: green;
+    }
+    .addNew{
+        margin-left: 10px;
+        background: green;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+.tableWrapper{
+    background-color: white;
+    border-radius: 8px;
+     margin: 20px 10px 20px 20px;
+    overflow-x: auto;
+    max-width: 1350px;
+    width: 100%;
+}
